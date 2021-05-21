@@ -131,7 +131,6 @@ export default class App extends React.Component{
                 <br/>
                 <br/>
                 
-          
 
            <div>
            <FormGroup row>
@@ -157,7 +156,7 @@ export default class App extends React.Component{
            <FormGroup row>
              <Label sm={2}> User Name </Label>
              <Col sm={10}>
-             <input type="text" name="name" value={this.state.username} onChange={this.handleChange}/>
+             <input type="text" name="username" value={this.state.username} onChange={this.handleChange}/>
              </Col>
              </FormGroup>
              </div>
@@ -168,7 +167,7 @@ export default class App extends React.Component{
            <FormGroup row>
              <Label sm={2}> Email </Label>
              <Col sm={10}>
-             <input type="text" name="name" value={this.state.email} onChange={this.handleChange}/>
+             <input type="text" name="email" value={this.state.email} onChange={this.handleChange}/>
              </Col>
              </FormGroup>
            </div>
@@ -179,7 +178,7 @@ export default class App extends React.Component{
            <FormGroup row>
              <Label sm={2}> Address </Label>
              <Col sm={10}>
-             <input type="text" name="name" value={this.state.address} onChange={this.handleChange}/>
+             <input type="text" name="address" value={this.state.address} onChange={this.handleChange}/>
              </Col>
              </FormGroup>
            </div>
@@ -189,7 +188,7 @@ export default class App extends React.Component{
            <FormGroup row>
              <Label sm={2}> Phone </Label>
              <Col sm={10}>
-             <input type="text" name="name" value={this.state.phone} onChange={this.handleChange}/>
+             <input type="text" name="phone" value={this.state.phone} onChange={this.handleChange}/>
              </Col>
              </FormGroup>
            </div>
@@ -199,7 +198,7 @@ export default class App extends React.Component{
            <FormGroup row>
              <Label sm={2}> Website </Label>
              <Col sm={10}>
-             <input type="text" name="name" value={this.state.website} onChange={this.handleChange}/>
+             <input type="text" name="website" value={this.state.website} onChange={this.handleChange}/>
              </Col>
              </FormGroup>
            </div>
@@ -209,7 +208,7 @@ export default class App extends React.Component{
            <FormGroup row>
              <Label sm={2}> Company </Label>
              <Col sm={10}>
-             <input type="text" name="name" value={this.state.company} onChange={this.handleChange}/>
+             <input type="text" name="company" value={this.state.company} onChange={this.handleChange}/>
              </Col>
              </FormGroup>
            </div>
