@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import {Button,Form,FormGroup,Label,Input,FormText,Col,Container,Dropdown,Navbar,NavbarBrand,DropdownToggle,DropdownMenu,DropdownItem,Table,ListGroupItem,
-ListGroup,CustomInput
+import {Button,Form,FormGroup,Label,Col,Navbar,NavbarBrand,Table,ListGroupItem,
+ListGroup
 } from "reactstrap";
 import './App.css';
 
